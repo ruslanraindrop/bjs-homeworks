@@ -27,6 +27,7 @@ function getGreeting(name) {
     		name = 'Аноним';
     	}
 		let greeting = `Привет, мир! Меня зовут ${name}`;
+    	console.log(greeting);
     	return greeting;
 }
     	
